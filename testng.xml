@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="10" name="Test">
+    <classes>
+		
+		<class name="org.ictakwebsite.test.TestPage"/>
+		<class name="org.ictakwebsite.test.TestContactUs"/>
+		<class name="org.ictakwebsite.test.TestEventsICSET"/>
+		<class name="org.ictakwebsite.test.TestMembership"/>
+        <class name="org.ictakwebsite.test.TestSuperAdmin"/>
+		<class name="org.ictakwebsite.test.TestCorporateMembershipDownload"/>
+		<class name="org.ictakwebsite.test.TestPartnershipDownload"/>
+		<class name="org.ictakwebsite.test.TestCourseRegistrationDownload"/>
+		 
+		
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

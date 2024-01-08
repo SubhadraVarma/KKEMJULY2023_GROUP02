@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="org.ictakwebsite.test.TestEventsICSET">
+        <methods>
+          <include name="setdetailblank"/>
+          <include name="setdetailsinvalid_testcase_2"/>
+          <include name="setdetailsinvalid_testcase_1"/>
+          <include name="set"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- org.ictakwebsite.test.TestEventsICSET -->
+      <class name="org.ictakwebsite.test.TestMembership">
+        <methods>
+          <include name="blankdetails"/>
+          <include name="invalidname"/>
+          <include name="setUp"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- org.ictakwebsite.test.TestMembership -->
+      <class name="org.ictakwebsite.test.TestContactUs">
+        <methods>
+          <include name="setup"/>
+          <include name="invaliddetails"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- org.ictakwebsite.test.TestContactUs -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
